@@ -16,7 +16,6 @@ body {
   padding: 25px;
   background-image: url(../images/background.jpg);
   background-size: cover;
-  background-position: center;
 }
 
 .input {
@@ -60,6 +59,7 @@ img {
   transition: transform 0.4s ease-in-out;
   margin: 20px;
   border-radius: 4%;
+  object-fit: cover;
 }
 .photo-card img:hover {
   transform: scale(1.02);

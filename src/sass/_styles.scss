@@ -57,12 +57,14 @@ img {
   display: block;
   box-shadow: 1px 2px 10px 1px black;
   transition: transform 0.4s ease-in-out;
-  margin: 20px;
-  border-radius: 4%;
+  border-radius: 3%;
   object-fit: cover;
+  margin: 10px;
 }
+
 .photo-card img:hover {
   transform: scale(1.02);
+
 }
 .stats {
   display: flex;
